@@ -1,0 +1,469 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: Arial, sans-serif; */
+}
+
+/* First and main div */
+.first {
+    max-width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.first img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.firstcontent {
+    margin: 50px;
+    height: 400px;
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.firstcontent button {
+    width: 100PX;
+    height: 30PX;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* free news letter */
+.second {
+    height: 250px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 70%;
+    text-align: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.second_inner>div:last-child {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn {
+    width: 500px;
+}
+#btn {
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+}
+#sub {
+    width: 20%;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    color: black;
+}
+
+
+/* Get Great Work done */
+
+.great_work{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.great_inner1{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.great_inner2{
+    display: flex;
+    background-color: red;
+    color: white;
+}
+.great_content{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F19A1D;
+    gap: 10px;
+}
+.great_content:first-child{
+    background-color: #8F77F4;
+}
+.great_content:last-child{
+    background-color: #C043F0;
+}
+.great_content div{
+    background-color: white;
+    padding: 5px;
+    border-radius:100% ;
+}
+/* GALARY */
+.galary{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gallaryinner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gallaryinner1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+    padding: 30px;
+    gap: 15px;
+}
+
+/* Envision */
+.envision{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px ;
+    justify-content: center;
+    align-items: center;
+
+}
+.envision2{
+    display: flex;
+    
+}
+.envision_content{
+    height: 180px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #F19A1D;
+    gap: 10px;
+    color: white;
+    margin-top: 30px;
+}
+.envision1{
+    width: 500px;
+    text-align: center;
+}
+.envision_content:first-child{
+    background-color: #8F77F4;
+}
+.envision_content:last-child{
+    background-color: #C043F0;
+}
+
+/* TEAM  */
+.team{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.teaminner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.team_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+    gap: 10px;
+}
+.teambody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+    padding: 30px;
+    gap: 15px;
+}
+.teamfooter button{
+      width: 110%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    color: white;
+    background-color: #F19A1D;
+}
+
+/* more speed */
+.speed{
+    display: flex;
+    justify-content: center;
+    background-color: #8F77F4;
+    width: 100%;
+}
+.speed div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+}
+.speed div:first-child button{
+    width: 15%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid  #8F77F4;
+    color: white;
+    background-color: #F19A1D;
+}
+
+/* help */
+.help{
+    display: flex;
+    gap: 70px;
+    margin-top: 50px;
+
+}
+.helpinner{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    padding: 20px;
+}
+.helpinner h5{
+    margin:5px 0px;
+}
+.helpinner1{
+    width: 300px;
+    height: 250px;
+    background-color: #8F77F4;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.helpinner select{
+    border: none;
+   color: #785de6;
+    background-color: transparent;
+}
+
+
+/* consultation */
+.consult{
+    background-color: #C043F0;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+.consult div{
+    height: 00px;
+    background-color: #F19A1D;
+    width: 300px;
+    margin-top: 50px;
+}
+.consultinner h5{
+    color: #F19A1D;
+}
+.consultinner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.consultinner1{
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.consultinner1 button{
+    position: absolute;
+    left: 100px;
+     width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid  #8F77F4;
+    color: white;   
+    background-color: #F19A1D;
+}
+.consultinner1 h5{
+    margin-top: 80px;
+}
+#btn1{
+    width: 190px;
+    padding: 8px;
+    border-radius: 30px;
+    border: none;
+}
+#sub2{
+    border-radius: 20px;
+    padding:8px ;
+    width: 100px;
+    border: none;
+    color:white;
+    background-color: #F19A1D;
+}
+/* last  */
+.last{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    background-color: #333333;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* --- TABLET VIEW --- */
+@media screen and (max-width: 1024px) {
+    .firstcontent {
+        left: 10%; /* Center the content overlay better */
+        width: 80%;
+    }
+
+    .gallaryinner1, .teambody, .speed div:first-child {
+        width: 90%; /* Reduce fixed 700px widths */
+    }
+
+    .help {
+        gap: 20px;
+        justify-content: center;
+    }
+}
+
+/* --- MOBILE VIEW --- */
+@media screen and (max-width: 768px) {
+    /* Stack horizontal sections vertically */
+    .great_inner2, 
+    .envision2, 
+    .help, 
+    .consult {
+        flex-direction: column;
+        height: auto; 
+        align-items: center;
+    }
+
+    /* Reset fixed widths to full width */
+    .second_inner,
+    .great_inner1,
+    .envision1,
+    .team_head,
+    .helpinner,
+    .helpinner1,
+    .consult div {
+        width: 90% !important;
+    }
+
+    /* Fix the hero section */
+    .first {
+        height: 600px;
+    }
+    .firstcontent {
+        position: relative;
+        left: 0;
+        margin: 20px auto;
+        color: #333; /* Make text dark if it falls below the image */
+        text-align: center;
+        align-items: center;
+    }
+
+    /* Adjust Newsletter Input */
+    .btn, #btn {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    /* Fix Gallery and Team Images */
+    .gallaryinner1, .teambody {
+        width: 100%;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .gallaryinner1 img, .teambody img {
+        width: 45%; /* Two images per row */
+        height: auto;
+    }
+
+    /* Fix Help section sizing */
+    .helpinner {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    /* Fix Consultation section */
+    .consult {
+        padding-bottom: 50px;
+    }
+    .consultinner1 button {
+        position: static; /* Remove absolute positioning */
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    /* Speed Section button */
+    .speed div:first-child button {
+        width: 50%;
+    }
+}
